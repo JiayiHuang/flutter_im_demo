@@ -13,7 +13,7 @@ void main() =>
           'app': (BuildContext context) => new App(),
           '/friends':  (_) => new WebviewScaffold(
             //Webview插件
-            url: "https://flutter.io/",
+            url: "https://flutter-io.cn/",
             appBar: new AppBar(
               title: new Text("Flutter官网"),
             ),

@@ -25,9 +25,11 @@ class ImItem extends StatelessWidget {
         child: Row(
           children: <Widget>[
             Container(
+              margin: EdgeInsets.only(right: 10, left: 10),
               child: imagePath != null
                   ? Image.asset(
                       imagePath,
+                      fit: BoxFit.cover,
                       width: 32,
                       height: 32,
                     )
